@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example  # Keep an example env for reference
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
+*.log
+*.log.*
+debug.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Coverage reports
+coverage/
+
+# Temporary files
+.tmp/
+.temp/
+.cache/
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+
+# Local Redis / DB data
+data/
